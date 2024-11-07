@@ -1,10 +1,10 @@
 import { Box, HStack } from "@chakra-ui/react"
 
 import { Route, Routes } from "react-router-dom"
-import Navbar from "./components/Navbar.jsx"
-import CreatePage from "./pages/CreatePage.jsx"
-import Homepage from "./pages/Homepage.jsx"
-import {useColorModeValue} from "./components/ui/color-mode.jsx"
+import Navbar from "./components/Navbar"
+import CreatePage from "./pages/CreatePage"
+import Homepage from "./pages/Homepage"
+import {useColorModeValue} from "./components/ui/color-mode"
 
 
 function App() {
